@@ -1,0 +1,12 @@
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\bin\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.deps.json
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\bin\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\bin\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\obj\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.csprojAssemblyReference.cache
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\obj\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\obj\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.AssemblyInfo.cs
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\obj\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\obj\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\bin\Debug\netstandard2.0\BirrasApp.Repositories.Models.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\bin\Debug\netstandard2.0\BirrasApp.Repositories.Models.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\obj\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.csproj.CopyComplete
+C:\Users\Adrian\BirrasApp\BirrasApp.IRepositories\obj\Debug\netstandard2.0\BirrasApp.Repositories.Interfaces.csproj.CoreCompileInputs.cache

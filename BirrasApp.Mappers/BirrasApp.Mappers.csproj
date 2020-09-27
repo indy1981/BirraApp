@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BirrasApp.DTOs\BirrasApp.DTOs.csproj" />
+    <ProjectReference Include="..\BirrasApp.Repositories.Models\BirrasApp.Repositories.Models.csproj" />
+    <ProjectReference Include="..\BirrasApp.Services.Models\BirrasApp.Services.Models.csproj" />
+  </ItemGroup>
+
+</Project>

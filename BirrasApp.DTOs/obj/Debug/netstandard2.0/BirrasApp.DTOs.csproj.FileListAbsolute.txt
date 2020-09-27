@@ -1,0 +1,12 @@
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\bin\Debug\netstandard2.0\BirrasApp.DTOs.deps.json
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\bin\Debug\netstandard2.0\BirrasApp.DTOs.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\bin\Debug\netstandard2.0\BirrasApp.DTOs.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\obj\Debug\netstandard2.0\BirrasApp.DTOs.AssemblyInfoInputs.cache
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\obj\Debug\netstandard2.0\BirrasApp.DTOs.AssemblyInfo.cs
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\obj\Debug\netstandard2.0\BirrasApp.DTOs.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\obj\Debug\netstandard2.0\BirrasApp.DTOs.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\obj\Debug\netstandard2.0\BirrasApp.DTOs.csproj.CopyComplete
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\obj\Debug\netstandard2.0\BirrasApp.DTOs.csprojAssemblyReference.cache
+C:\Users\Adrian\BirrasApp\BirrasApp.DTOs\obj\Debug\netstandard2.0\BirrasApp.DTOs.csproj.CoreCompileInputs.cache

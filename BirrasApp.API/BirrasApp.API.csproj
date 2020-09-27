@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <StartupObject>BirrasApp.API.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BirrasApp.DTOs\BirrasApp.DTOs.csproj" />
+    <ProjectReference Include="..\BirrasApp.External.Services.Interfaces\BirrasApp.External.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\BirrasApp.Mappers\BirrasApp.Mappers.csproj" />
+    <ProjectReference Include="..\BirrasApp.Repositories\BirrasApp.Repositories.csproj" />
+    <ProjectReference Include="..\BirrasApp.Services.External\BirrasApp.External.Services.csproj" />
+    <ProjectReference Include="..\BirrasApp.Services.interfaces\BirrasApp.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\BirrasApp.Services\BirrasApp.Services.csproj" />
+  </ItemGroup>
+
+</Project>

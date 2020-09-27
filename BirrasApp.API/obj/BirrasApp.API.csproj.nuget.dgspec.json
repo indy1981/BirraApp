@@ -1,0 +1,762 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.API\\BirrasApp.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.API\\BirrasApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.API\\BirrasApp.API.csproj",
+        "projectName": "BirrasApp.API",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.API\\BirrasApp.API.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\BirrasApp.DTOs.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\BirrasApp.DTOs.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\BirrasApp.External.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\BirrasApp.External.Services.Interfaces.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Mappers\\BirrasApp.Mappers.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Mappers\\BirrasApp.Mappers.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories\\BirrasApp.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories\\BirrasApp.Repositories.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.External\\BirrasApp.External.Services.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.External\\BirrasApp.External.Services.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\BirrasApp.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\BirrasApp.Services.Interfaces.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services\\BirrasApp.Services.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services\\BirrasApp.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\BirrasApp.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\BirrasApp.DTOs.csproj",
+        "projectName": "BirrasApp.DTOs",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\BirrasApp.DTOs.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\BirrasApp.External.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\BirrasApp.External.Services.Interfaces.csproj",
+        "projectName": "BirrasApp.External.Services.Interfaces",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\BirrasApp.External.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\BirrasApp.External.Services.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\BirrasApp.External.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\BirrasApp.External.Services.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\BirrasApp.External.Services.Models.csproj",
+        "projectName": "BirrasApp.External.Services.Models",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\BirrasApp.External.Services.Models.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\BirrasApp.Repositories.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\BirrasApp.Repositories.Interfaces.csproj",
+        "projectName": "BirrasApp.Repositories.Interfaces",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\BirrasApp.Repositories.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Mappers\\BirrasApp.Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Mappers\\BirrasApp.Mappers.csproj",
+        "projectName": "BirrasApp.Mappers",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Mappers\\BirrasApp.Mappers.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\BirrasApp.DTOs.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.DTOs\\BirrasApp.DTOs.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj",
+        "projectName": "BirrasApp.Repositories.Models",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories\\BirrasApp.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories\\BirrasApp.Repositories.csproj",
+        "projectName": "BirrasApp.Repositories",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories\\BirrasApp.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\BirrasApp.Repositories.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\BirrasApp.Repositories.Interfaces.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Repositories.Models\\BirrasApp.Repositories.Models.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.External\\BirrasApp.External.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.External\\BirrasApp.External.Services.csproj",
+        "projectName": "BirrasApp.External.Services",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.External\\BirrasApp.External.Services.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.External\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\BirrasApp.External.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Interfaces\\BirrasApp.External.Services.Interfaces.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\BirrasApp.External.Services.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.External.Services.Models\\BirrasApp.External.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SendGrid.SmtpApi": {
+              "target": "Package",
+              "version": "[1.3.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\BirrasApp.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\BirrasApp.Services.Interfaces.csproj",
+        "projectName": "BirrasApp.Services.Interfaces",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\BirrasApp.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj",
+        "projectName": "BirrasApp.Services.Models",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services\\BirrasApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services\\BirrasApp.Services.csproj",
+        "projectName": "BirrasApp.Services",
+        "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services\\BirrasApp.Services.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\BirrasApp.Repositories.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.IRepositories\\BirrasApp.Repositories.Interfaces.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\BirrasApp.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.interfaces\\BirrasApp.Services.Interfaces.csproj"
+              },
+              "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\BirrasApp\\BirrasApp.Services.Models\\BirrasApp.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\bin\Debug\netstandard2.0\BirrasApp.External.Services.deps.json
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\bin\Debug\netstandard2.0\BirrasApp.External.Services.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\bin\Debug\netstandard2.0\BirrasApp.External.Services.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\obj\Debug\netstandard2.0\BirrasApp.External.Services.AssemblyInfoInputs.cache
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\obj\Debug\netstandard2.0\BirrasApp.External.Services.AssemblyInfo.cs
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\obj\Debug\netstandard2.0\BirrasApp.External.Services.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\obj\Debug\netstandard2.0\BirrasApp.External.Services.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\bin\Debug\netstandard2.0\BirrasApp.External.Services.Models.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\bin\Debug\netstandard2.0\BirrasApp.External.Services.Models.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\obj\Debug\netstandard2.0\BirrasApp.External.Services.csprojAssemblyReference.cache
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\obj\Debug\netstandard2.0\BirrasApp.External.Services.csproj.CopyComplete
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\bin\Debug\netstandard2.0\BirrasApp.External.Services.Interfaces.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\bin\Debug\netstandard2.0\BirrasApp.External.Services.Interfaces.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.Services.External\obj\Debug\netstandard2.0\BirrasApp.External.Services.csproj.CoreCompileInputs.cache

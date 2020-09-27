@@ -1,0 +1,8 @@
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\bin\Debug\netstandard2.0\BirrasApp.External.Services.Models.deps.json
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\bin\Debug\netstandard2.0\BirrasApp.External.Services.Models.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\bin\Debug\netstandard2.0\BirrasApp.External.Services.Models.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\obj\Debug\netstandard2.0\BirrasApp.External.Services.Models.AssemblyInfoInputs.cache
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\obj\Debug\netstandard2.0\BirrasApp.External.Services.Models.AssemblyInfo.cs
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\obj\Debug\netstandard2.0\BirrasApp.External.Services.Models.dll
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\obj\Debug\netstandard2.0\BirrasApp.External.Services.Models.pdb
+C:\Users\Adrian\BirrasApp\BirrasApp.External.Services.Models\obj\Debug\netstandard2.0\BirrasApp.External.Services.Models.csproj.CoreCompileInputs.cache
